@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: image-registry.openshift-image-registry.svc:5000/cicd-renato/httpd-demo
+  tag: "1.0.1-0fe031a"
+
+# This is to override the chart name.
+fullnameOverride: "prueba-renato"
+
+service:
+  type: ClusterIP
+  port: 80
+route:
+  host: ''
+  weight: 100
+  targetPort: 8080
+  tls:
+    enabled: true
+    termination: edge
