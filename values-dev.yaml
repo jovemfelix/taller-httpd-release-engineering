@@ -9,7 +9,7 @@ fullnameOverride: "prueba-renato"
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8080
 route:
   host: ''
   weight: 100
