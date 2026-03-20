@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: image-registry.openshift-image-registry.svc:5000/cicd-renato/httpd-demo
-  tag: "1.0.1-d26b1ed"
+  tag: "1.0.1-0fe031a"
 
 # This is to override the chart name.
 fullnameOverride: "prueba-renato"
