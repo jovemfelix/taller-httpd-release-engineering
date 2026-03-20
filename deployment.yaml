@@ -17,7 +17,7 @@ spec:
         deployment: my-app
     spec:
       containers:
-      - image: 'image-registry.openshift-image-registry.svc:5000/cicd-renato/httpd-demo:1.0.1-d26b1ed'
+      - image: 'image-registry.openshift-image-registry.svc:5000/cicd-renato/taller-httpd-application-engineering:1.0.1-c22e674'
         imagePullPolicy: IfNotPresent
         name: my-app
         ports:
